@@ -18,6 +18,7 @@ class Measure(models.Model):
     carbs = models.IntegerField()
     protein = models.IntegerField()
     fiber = models.IntegerField()
+    caffeine = models.IntegerField()
 
     def __str__(self):
         return self.label
